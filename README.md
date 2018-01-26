@@ -1,2 +1,2 @@
-# cmpt120JarosiewitzKnapp
-Lab Work for Introduction to Programming
+Intorduction to Programming - Lab Activities
+This repository contain my work for all Lab Activities
