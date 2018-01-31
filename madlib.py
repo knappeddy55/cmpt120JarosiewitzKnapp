@@ -5,7 +5,7 @@ def main():
    adjective = input("Enter an adjective:")
    place = input("Enter a place:")
 
-   print("Take the", noun , "and", verb , "it",  adjective , "at the", place)
+   print("Take the", adjective, noun , "and", verb , "it at the", place)
 
 main()
 
