@@ -6,7 +6,8 @@
 def main():
     first, last = getinfo()
     uname = createusername(first, last)
-    passwd = createpassword()
+    # JA: Password creqation should be in a loop
+    passwd = createpassword() 
     print("Account configured. Your new email address is",
               uname + "@marist.edu"), passwd
     
@@ -19,14 +20,12 @@ def getinfo():
     
 
 def createusername(first, last):
+    # JA: This should also make it lowercase
     uname = first + '.' + last
     print("First name is,", first, "Last name is,", last)
     return uname
 
     
-
-
-
     
 # ask user to create a new password
 def createpassword():
